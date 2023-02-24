@@ -1,0 +1,106 @@
+Deploying bundle: 68 for application: 25 ...
+[Connect] Building Shiny application...
+[Connect] Bundle created with R version 4.2.1 is compatible with environment Local with R version 4.2.0 from /usr/prog/prod1/stacks/skylake/software/R/4.2.0-foss-2021b/bin/R 
+[Connect] Bundle requested R version 4.2.1; using /usr/prog/prod1/stacks/skylake/software/R/4.2.0-foss-2021b/bin/R which has version 4.2.0
+[Connect] 2023/02/24 15:24:44.511117712 Running on host: ip-10-200-175-40
+[Connect] 2023/02/24 15:24:44.540164634 Linux distribution: Ubuntu 20.04.4 LTS (focal)
+[Connect] 2023/02/24 15:24:44.540187032 LANG: C.UTF-8
+[Connect] 2023/02/24 15:24:44.540214262 Working directory: /opt/rstudio-connect/mnt/app
+[Connect] 2023/02/24 15:24:44.540911909 R version: 4.2.0
+[Connect] 2023/02/24 15:24:44.541147435 Using user agent string: 'RStudio R (4.2.0 x86_64-pc-linux-gnu x86_64 linux-gnu)' 
+[Connect] 2023/02/24 15:24:44.541389678 # Validating R library read / write permissions --------------------------------
+[Connect] 2023/02/24 15:24:44.553281405 Using R library for packrat bootstrap: /opt/rstudio-connect/mnt/R/4.2.0
+[Connect] 2023/02/24 15:24:44.554213827 # Validating managed packrat installation --------------------------------------
+[Connect] 2023/02/24 15:24:44.554421976 Vendored packrat archive: /opt/rstudio-connect/ext/R/packrat_0.8.1_d152f12602e2595e3cfe3c73acc9a1a2de3ecad0.tar.gz
+[Connect] 2023/02/24 15:24:44.578742112 Vendored packrat SHA: d152f12602e2595e3cfe3c73acc9a1a2de3ecad0
+[Connect] 2023/02/24 15:24:44.597998040 Managed packrat SHA:  d152f12602e2595e3cfe3c73acc9a1a2de3ecad0
+[Connect] 2023/02/24 15:24:44.605124770 Managed packrat version: 0.8.1
+[Connect] 2023/02/24 15:24:44.605415893 Managed packrat is up-to-date.
+[Connect] 2023/02/24 15:24:44.605592376 # Validating packrat cache read / write permissions ----------------------------
+[Connect] 2023/02/24 15:24:44.690407038 Using packrat cache directory: /opt/rstudio-connect/mnt/packrat/4.2.0
+[Connect] 2023/02/24 15:24:45.000640347 Audited package hashes with local packrat installation.
+[Connect] 2023/02/24 15:24:45.020541667 # Installing required R packages with `packrat::restore()` ---------------------
+[Connect] 2023/02/24 15:24:45.249427974 Installing R6 (2.5.1) ... 
+[Connect] 2023/02/24 15:24:45.313935162 Using cached R6.
+[Connect] 2023/02/24 15:24:45.320731436 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:45.320823458 Installing Rcpp (1.0.9) ... 
+[Connect] 2023/02/24 15:24:45.375708392 Using cached Rcpp.
+[Connect] 2023/02/24 15:24:45.379352204 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:45.379440455 Installing base64enc (0.1-3) ... 
+[Connect] 2023/02/24 15:24:45.435750946 Using cached base64enc.
+[Connect] 2023/02/24 15:24:45.441558439 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:45.441637750 Installing cli (3.4.1) ... 
+[Connect] 2023/02/24 15:24:45.487972307 Using cached cli.
+[Connect] 2023/02/24 15:24:45.495093562 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:45.495173819 Installing commonmark (1.8.0) ... 
+[Connect] 2023/02/24 15:24:45.541650748 Using cached commonmark.
+[Connect] 2023/02/24 15:24:45.546055227 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:45.546164256 Installing crayon (1.5.2) ... 
+[Connect] 2023/02/24 15:24:45.618742833 Using cached crayon.
+[Connect] 2023/02/24 15:24:45.623630068 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:45.623721478 Installing digest (0.6.29) ... 
+[Connect] 2023/02/24 15:24:45.669415147 Using cached digest.
+[Connect] 2023/02/24 15:24:45.672965996 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:45.673054006 Installing fastmap (1.1.0) ... 
+[Connect] 2023/02/24 15:24:45.741600513 Using cached fastmap.
+[Connect] 2023/02/24 15:24:45.747096372 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:45.747175080 Installing fs (1.5.2) ... 
+[Connect] 2023/02/24 15:24:45.805466483 Using cached fs.
+[Connect] 2023/02/24 15:24:45.811958139 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:45.812039206 Installing glue (1.6.2) ... 
+[Connect] 2023/02/24 15:24:45.870600264 Using cached glue.
+[Connect] 2023/02/24 15:24:45.874582468 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:45.874673912 Installing jsonlite (1.8.0) ... 
+[Connect] 2023/02/24 15:24:45.934413408 Using cached jsonlite.
+[Connect] 2023/02/24 15:24:45.938336390 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:45.938413268 Installing magrittr (2.0.3) ... 
+[Connect] 2023/02/24 15:24:45.978940701 Using cached magrittr.
+[Connect] 2023/02/24 15:24:45.985447000 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:46.016867071 Installing mime (0.12) ... 
+[Connect] 2023/02/24 15:24:46.057254320 Using cached mime.
+[Connect] 2023/02/24 15:24:46.061397414 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:46.061477395 Installing rappdirs (0.3.3) ... 
+[Connect] 2023/02/24 15:24:46.109832013 Using cached rappdirs.
+[Connect] 2023/02/24 15:24:46.120414891 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:46.120504564 Installing remotes (2.4.2) ... 
+[Connect] 2023/02/24 15:24:46.168557375 Using cached remotes.
+[Connect] 2023/02/24 15:24:46.183148035 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:46.183252589 Installing rlang (1.0.6) ... 
+[Connect] 2023/02/24 15:24:46.231429960 Using cached rlang.
+[Connect] 2023/02/24 15:24:46.235824842 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:46.235903632 Installing sourcetools (0.1.7) ... 
+[Connect] 2023/02/24 15:24:46.293684599 Using cached sourcetools.
+[Connect] 2023/02/24 15:24:46.297656599 	OK (symlinked cache)
+[Connect] 2023/02/24 15:24:46.297737176 Installing stringi (1.7.8) ... 
+[Connect] 2023/02/24 15:24:46.362183176 curl: (35) OpenSSL SSL_connect: Connection reset by peer in connection to cran.uni-muenster.de:443 
+[Connect] 2023/02/24 15:24:46.362633889 curl: HTTP 000 https://cran.uni-muenster.de/src/contrib/PACKAGES.rds
+[Connect] 2023/02/24 15:24:46.425111609 curl: (35) OpenSSL SSL_connect: Connection reset by peer in connection to cran.uni-muenster.de:443 
+[Connect] 2023/02/24 15:24:46.425534468 curl: HTTP 000 https://cran.uni-muenster.de/src/contrib/PACKAGES.gz
+[Connect] 2023/02/24 15:24:46.483964142 curl: (35) OpenSSL SSL_connect: Connection reset by peer in connection to cran.uni-muenster.de:443 
+[Connect] 2023/02/24 15:24:46.484379688 curl: HTTP 000 https://cran.uni-muenster.de/src/contrib/PACKAGES
+[Connect] 2023/02/24 15:24:46.485886725 Warning: unable to access index for repository https://cran.uni-muenster.de/src/contrib:
+[Connect] 2023/02/24 15:24:46.485904315   'curl' call had nonzero exit status
+[Connect] 2023/02/24 15:24:46.549471197 curl: (35) OpenSSL SSL_connect: Connection reset by peer in connection to cran.uni-muenster.de:443 
+[Connect] 2023/02/24 15:24:46.549478217 curl: HTTP 000 https://cran.uni-muenster.de/src/contrib/Archive/stringi/stringi_1.7.8.tar.gz
+[Connect] 2023/02/24 15:24:47.613223314 curl: (35) OpenSSL SSL_connect: Connection reset by peer in connection to cran.uni-muenster.de:443 
+[Connect] 2023/02/24 15:24:47.613233907 curl: HTTP 000 https://cran.uni-muenster.de/src/contrib/Archive/stringi/stringi_1.7.8.tar.gz
+[Connect] 2023/02/24 15:24:48.677586591 curl: (35) OpenSSL SSL_connect: Connection reset by peer in connection to cran.uni-muenster.de:443 
+[Connect] 2023/02/24 15:24:48.677599027 curl: HTTP 000 https://cran.uni-muenster.de/src/contrib/Archive/stringi/stringi_1.7.8.tar.gz
+[Connect] 2023/02/24 15:24:49.749655980 curl: (35) OpenSSL SSL_connect: Connection reset by peer in connection to cran.uni-muenster.de:443 
+[Connect] 2023/02/24 15:24:49.749667024 curl: HTTP 000 https://cran.uni-muenster.de/src/contrib/Archive/stringi/stringi_1.7.8.tar.gz
+[Connect] 2023/02/24 15:24:50.816081212 curl: (35) OpenSSL SSL_connect: Connection reset by peer in connection to cran.uni-muenster.de:443 
+[Connect] 2023/02/24 15:24:50.816092319 curl: HTTP 000 https://cran.uni-muenster.de/src/contrib/Archive/stringi/stringi_1.7.8.tar.gz
+[Connect] 2023/02/24 15:24:51.818908957 FAILED
+[Connect] 2023/02/24 15:24:51.819883674 Error in getSourceForPkgRecord(pkgRecord, srcDir(project), availablePackagesSource(repos = repos), : Failed to retrieve package sources for stringi 1.7.8 from CRAN (internet connectivity issue?)
+[Connect] 2023/02/24 15:24:51.819901564 
+[Connect] 2023/02/24 15:24:51.819930547 Unable to fully restore the R packages associated with this deployment.
+[Connect] 2023/02/24 15:24:51.819932300 Please review the preceding messages to determine which package
+[Connect] 2023/02/24 15:24:51.819943464 encountered installation difficulty and the cause of the failure.
+[Connect] 2023/02/24 15:24:51.829316832 Warning message:
+[Connect] 2023/02/24 15:24:51.829374147 In packrat::restore(overwrite.dirty = TRUE, prompt = FALSE, restart = FALSE) :
+[Connect] 2023/02/24 15:24:51.829380762   The most recent snapshot was generated using R version 4.2.1
+[Connect] An error occurred while building your content.
+[Connect] This link offers advice for this kind of error:
+[Connect]     https://docs.rstudio.com/connect/user/troubleshooting/#r-cannot-access-repo
+[Connect] Build error: An error occurred while building your content. (Error code: r-cannot-access-repo)
+Application deployment failed with error: An error occurred while building your content. (Error code: r-cannot-access-repo)
