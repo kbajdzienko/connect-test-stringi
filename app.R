@@ -1,9 +1,19 @@
-if(!("remotes" %in% installed.packages())) install.packages('remotes')
-if(!("stringi" %in% installed.packages())) remotes::install_version('stringi','1.7.8')
-if(!("shiny" %in% installed.packages())) remotes::install_version('shiny','1.7.2')
-
+library(remotes)
 library(shiny)
-library(stringi)
+library(reactable)
+library(waiter)
+library(dplyr)
+library(stringr)
+library(glue)
+library(lubridate)
+library(DBI)
+library(ggplot2)
+library(plotly)
+library(shiny.router)
+library(shiny.fluent)
+library(shinyDataFilter)
+library(reactable)
+library(box)
 
 
 ui <- fluidPage(
