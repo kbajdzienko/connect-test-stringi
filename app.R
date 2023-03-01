@@ -13,7 +13,10 @@ library(shiny.router)
 library(shiny.fluent)
 library(shinyDataFilter)
 library(reactable)
-library(box)
+
+# Test that box works
+box::use(tibble)
+box::help(tibble$tibble)
 
 
 ui <- fluidPage(
